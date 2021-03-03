@@ -1,0 +1,10 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+@import "header.scss";
+@import "title.scss";
+@import "order.scss";
+@import "buttons.scss";
+@import "tarifs.scss";
+@import "about.scss";
