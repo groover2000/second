@@ -1,0 +1,35 @@
+.btn {
+    height: 50px;
+    width: 160px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 900;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform .1s;
+    &--form {
+        width: 100%;
+        margin-top: 100px;
+    }
+    &:hover {
+        transform: scale(1.1);
+       
+    }
+    &--cars {
+        width: 160px;
+        height: 45px;
+        padding: 5px;
+        background-color: #ffc61a;
+        color: black;
+        display: block;
+        margin: 30px auto;
+        
+    }
+   
+   
+}

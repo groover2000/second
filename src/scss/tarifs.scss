@@ -1,0 +1,68 @@
+.tarifs {
+    background: #fff;
+    padding-top: 45px;
+    padding-bottom: 80px;
+    font-family: 'Lato';
+    &-container {
+        width: 1200px;
+        
+        margin: 0 auto;
+    }
+    &-title {
+        text-align: center;
+        text-transform: uppercase;
+        &__main {
+            color: #ffc61a;
+            font-size: 35px;
+        }
+        &__subtitle {
+            font-size: 45px;
+        }
+    }
+    &-cars {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        padding-top: 120px;
+        &-item {
+           
+            position: relative;
+            width: 375px;
+            height: 425px;
+            background: #f5f4f2;
+            transition: all .2s;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.1);
+            }
+            &__img {
+                position: absolute;
+                width: 100%;
+                top: -90px;
+                left: 0;
+            }
+            &__text {
+                padding-top: 120px;
+                
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 30px;
+
+            }
+            &__subtext {
+                text-align: center;
+                font-size: 18px;
+                color: #444444;
+                padding: 25px;
+            }
+            &__price {
+                color:#ffc61a ;
+                text-transform: uppercase;
+                font-size: 50px;
+                text-align: center;
+                font-weight: 900;
+            }
+        }
+    }
+}
